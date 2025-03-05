@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 
 export default function Home() {
   const [size, setSize] = useState(10);
-  const [status, setStatus] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -26,7 +25,7 @@ export default function Home() {
           <>
             <div className="flex justify-center items-center mb-4">
               <Image 
-                src="/image.png" 
+                src="https://cdn-icons-png.flaticon.com/512/7677/7677560.png" 
                 alt="없어짐"
                 width={size * 30} 
                 height={size * 20} 
